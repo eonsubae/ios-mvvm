@@ -14,6 +14,7 @@
 		421AD0BA25AD1B93001D1F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421AD0B825AD1B93001D1F0E /* LaunchScreen.storyboard */; };
 		421AD0C525AD1C2B001D1F0E /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD0C425AD1C2B001D1F0E /* NewsListTableViewController.swift */; };
 		421AD0CA25AD2181001D1F0E /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD0C925AD2181001D1F0E /* WebService.swift */; };
+		428B7F5F25AD2714002D9DC9 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428B7F5E25AD2714002D9DC9 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		421AD0BB25AD1B93001D1F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		421AD0C425AD1C2B001D1F0E /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 		421AD0C925AD2181001D1F0E /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		428B7F5E25AD2714002D9DC9 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		421AD0AC25AD1B90001D1F0E /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				428B7F5D25AD2701002D9DC9 /* Models */,
 				421AD0C825AD216A001D1F0E /* Services */,
 				421AD0C325AD1C00001D1F0E /* Controllers */,
 				421AD0AD25AD1B90001D1F0E /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 				421AD0C925AD2181001D1F0E /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		428B7F5D25AD2701002D9DC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				428B7F5E25AD2714002D9DC9 /* Article.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				421AD0C525AD1C2B001D1F0E /* NewsListTableViewController.swift in Sources */,
 				421AD0CA25AD2181001D1F0E /* WebService.swift in Sources */,
 				421AD0B025AD1B90001D1F0E /* SceneDelegate.swift in Sources */,
+				428B7F5F25AD2714002D9DC9 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
