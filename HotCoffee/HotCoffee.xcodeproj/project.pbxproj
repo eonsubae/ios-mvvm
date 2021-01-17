@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42110C2E25B46D9700AE5AEA /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42110C2D25B46D9700AE5AEA /* WebService.swift */; };
 		4233D8AF25B15AD40060FCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233D8AE25B15AD40060FCCF /* AppDelegate.swift */; };
 		4233D8B125B15AD40060FCCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233D8B025B15AD40060FCCF /* SceneDelegate.swift */; };
 		4233D8B625B15AD40060FCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4233D8B425B15AD40060FCCF /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42110C2D25B46D9700AE5AEA /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		4233D8AB25B15AD40060FCCF /* HotCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4233D8AE25B15AD40060FCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4233D8B025B15AD40060FCCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42110C2C25B46D7C00AE5AEA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42110C2D25B46D9700AE5AEA /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		4233D8A225B15AD40060FCCF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		4233D8AD25B15AD40060FCCF /* HotCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				42110C2C25B46D7C00AE5AEA /* Services */,
 				4233D8C425B15AFC0060FCCF /* Controllers */,
 				4233D8AE25B15AD40060FCCF /* AppDelegate.swift */,
 				4233D8B025B15AD40060FCCF /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 				4233D8AF25B15AD40060FCCF /* AppDelegate.swift in Sources */,
 				4233D8B125B15AD40060FCCF /* SceneDelegate.swift in Sources */,
 				4233D8C825B15C690060FCCF /* OrdersTableViewController.swift in Sources */,
+				42110C2E25B46D9700AE5AEA /* WebService.swift in Sources */,
 				4233D8CB25B15C9E0060FCCF /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
