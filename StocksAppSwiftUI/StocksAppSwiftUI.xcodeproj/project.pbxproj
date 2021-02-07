@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421A3C0525D034410080A549 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421A3C0425D034410080A549 /* SearchView.swift */; };
 		42929E5125CAEE30009B6433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42929E5025CAEE30009B6433 /* AppDelegate.swift */; };
 		42929E5325CAEE30009B6433 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42929E5225CAEE30009B6433 /* SceneDelegate.swift */; };
 		42929E5525CAEE30009B6433 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42929E5425CAEE30009B6433 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		421A3C0425D034410080A549 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		42929E4D25CAEE30009B6433 /* StocksAppSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StocksAppSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42929E5025CAEE30009B6433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42929E5225CAEE30009B6433 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		421A3C0325D034230080A549 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				421A3C0425D034410080A549 /* SearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		42929E4425CAEE30009B6433 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		42929E4F25CAEE30009B6433 /* StocksAppSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				421A3C0325D034230080A549 /* Views */,
 				429AD7A925CD72EC00960D59 /* ViewModels */,
 				42929E6A25CAEF5A009B6433 /* Models */,
 				42929E6525CAEEFC009B6433 /* Services */,
@@ -185,6 +196,7 @@
 				429AD7AB25CD731B00960D59 /* StockListViewModel.swift in Sources */,
 				42929E5325CAEE30009B6433 /* SceneDelegate.swift in Sources */,
 				42929E6725CAEF09009B6433 /* WebService.swift in Sources */,
+				421A3C0525D034410080A549 /* SearchView.swift in Sources */,
 				42929E6C25CAEF71009B6433 /* Stock.swift in Sources */,
 				42929E5525CAEE30009B6433 /* ContentView.swift in Sources */,
 				429AD7AE25CD734C00960D59 /* StockViewModel.swift in Sources */,
